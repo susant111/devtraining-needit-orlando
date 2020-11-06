@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_write_back_action_item">
+    <sys_sg_write_back_action_item action="DELETE">
+        <description>Action Item to delete a NeedIt record.</description>
+        <execution_script/>
+        <name>Delete NeedIt Record</name>
+        <query_condition/>
+        <sys_class_name>sys_sg_write_back_action_item</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-05 18:09:45</sys_created_on>
+        <sys_id>fb5eeaad079020105734f6fd7c1ed0dd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Delete NeedIt Record</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_sg_write_back_action_item_fb5eeaad079020105734f6fd7c1ed0dd</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-05 18:09:45</sys_updated_on>
+        <table>x_58872_needit_needit</table>
+        <template/>
+        <type>delete</type>
+        <use_current_record_as_condition>true</use_current_record_as_condition>
+    </sys_sg_write_back_action_item>
+    <sys_translated_text action="DELETE" query="documentkey=fb5eeaad079020105734f6fd7c1ed0dd"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</application>
+        <file_path/>
+        <instance_id>a08d4987db063bc891232f17d496190f</instance_id>
+        <instance_name>dev88125</instance_name>
+        <name>sys_sg_write_back_action_item_fb5eeaad079020105734f6fd7c1ed0dd</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_write_back_action_item"><sys_sg_write_back_action_item action="INSERT_OR_UPDATE"><description>Action Item to delete a NeedIt record.</description><execution_script/><name>Delete NeedIt Record</name><query_condition/><sys_class_name>sys_sg_write_back_action_item</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-11-05 18:09:45</sys_created_on><sys_id>fb5eeaad079020105734f6fd7c1ed0dd</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Delete NeedIt Record</sys_name><sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package><sys_policy/><sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope><sys_update_name>sys_sg_write_back_action_item_fb5eeaad079020105734f6fd7c1ed0dd</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-11-05 18:09:45</sys_updated_on><table>x_58872_needit_needit</table><template/><type>delete</type><use_current_record_as_condition>true</use_current_record_as_condition></sys_sg_write_back_action_item><sys_translated_text action="delete_multiple" query="documentkey=fb5eeaad079020105734f6fd7c1ed0dd"/></record_update>]]></payload>
+        <payload_hash>1045530083</payload_hash>
+        <record_name>Delete NeedIt Record</record_name>
+        <reverted_from/>
+        <source>1f2c35ed071020105734f6fd7c1ed096</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-05 18:09:45</sys_created_on>
+        <sys_id>488e2a6d079020105734f6fd7c1ed0fa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1759999a8bc0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-05 18:09:45</sys_updated_on>
+        <type>Action item</type>
+        <update_guid>808e2a6df19020103297a96a6feaf9fa</update_guid>
+        <update_guid_history>808e2a6df19020103297a96a6feaf9fa:1045530083</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-05 19:15:37</sys_created_on>
+        <sys_db_object display_value="" name="sys_sg_write_back_action_item">sys_sg_write_back_action_item</sys_db_object>
+        <sys_id>5260b92c52844af0a6c481ba984cfe04</sys_id>
+        <sys_metadata>fb5eeaad079020105734f6fd7c1ed0dd</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Delete NeedIt Record</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_scope_delete display_value="">94872a8897db403e8ee69a431de2fca4</sys_scope_delete>
+        <sys_update_name>sys_sg_write_back_action_item_fb5eeaad079020105734f6fd7c1ed0dd</sys_update_name>
+        <sys_update_version display_value="sys_sg_write_back_action_item_fb5eeaad079020105734f6fd7c1ed0dd">488e2a6d079020105734f6fd7c1ed0fa</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-05 19:15:37</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

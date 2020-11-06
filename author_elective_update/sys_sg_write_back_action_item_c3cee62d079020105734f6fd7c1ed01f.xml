@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_write_back_action_item">
+    <sys_sg_write_back_action_item action="DELETE">
+        <description>Action Item to update the Priority field value on a NeedIt record.</description>
+        <execution_script/>
+        <name>Update NeedIt Priority</name>
+        <query_condition/>
+        <sys_class_name>sys_sg_write_back_action_item</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-05 18:11:33</sys_created_on>
+        <sys_id>c3cee62d079020105734f6fd7c1ed01f</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Update NeedIt Priority</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_sg_write_back_action_item_c3cee62d079020105734f6fd7c1ed01f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-05 18:13:54</sys_updated_on>
+        <table>x_58872_needit_needit</table>
+        <template>priority={{Update Priority}}^EQ</template>
+        <type>update</type>
+        <use_current_record_as_condition>true</use_current_record_as_condition>
+    </sys_sg_write_back_action_item>
+    <sys_translated_text action="DELETE" query="documentkey=c3cee62d079020105734f6fd7c1ed01f"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</application>
+        <file_path/>
+        <instance_id>a08d4987db063bc891232f17d496190f</instance_id>
+        <instance_name>dev88125</instance_name>
+        <name>sys_sg_write_back_action_item_c3cee62d079020105734f6fd7c1ed01f</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_write_back_action_item"><sys_sg_write_back_action_item action="INSERT_OR_UPDATE"><description>Action Item to update the Priority field value on a NeedIt record.</description><execution_script/><name>Update NeedIt Priority</name><query_condition/><sys_class_name>sys_sg_write_back_action_item</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-11-05 18:11:33</sys_created_on><sys_id>c3cee62d079020105734f6fd7c1ed01f</sys_id><sys_mod_count>1</sys_mod_count><sys_name>Update NeedIt Priority</sys_name><sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package><sys_policy/><sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope><sys_update_name>sys_sg_write_back_action_item_c3cee62d079020105734f6fd7c1ed01f</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-11-05 18:13:54</sys_updated_on><table>x_58872_needit_needit</table><template>priority={{Update Priority}}^EQ</template><type>update</type><use_current_record_as_condition>true</use_current_record_as_condition></sys_sg_write_back_action_item><sys_translated_text action="delete_multiple" query="documentkey=c3cee62d079020105734f6fd7c1ed01f"/></record_update>]]></payload>
+        <payload_hash>-1548141140</payload_hash>
+        <record_name>Update NeedIt Priority</record_name>
+        <reverted_from/>
+        <source>1f2c35ed071020105734f6fd7c1ed096</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-05 18:13:54</sys_created_on>
+        <sys_id>f87fa6ed079020105734f6fd7c1ed0bc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>175999d74fc0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-05 18:13:54</sys_updated_on>
+        <type>Action item</type>
+        <update_guid>bc7feaada59020103d12af0e530ecd5d</update_guid>
+        <update_guid_history>bc7feaada59020103d12af0e530ecd5d:-1548141140,9aee62eda6902010236228c598cbd1a3:-541153824</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-05 19:15:22</sys_created_on>
+        <sys_db_object display_value="" name="sys_sg_write_back_action_item">sys_sg_write_back_action_item</sys_db_object>
+        <sys_id>49db33cf5ec84128a39833bda8799401</sys_id>
+        <sys_metadata>c3cee62d079020105734f6fd7c1ed01f</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Update NeedIt Priority</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_scope_delete display_value="">94872a8897db403e8ee69a431de2fca4</sys_scope_delete>
+        <sys_update_name>sys_sg_write_back_action_item_c3cee62d079020105734f6fd7c1ed01f</sys_update_name>
+        <sys_update_version display_value="sys_sg_write_back_action_item_c3cee62d079020105734f6fd7c1ed01f">f87fa6ed079020105734f6fd7c1ed0bc</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-05 19:15:22</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

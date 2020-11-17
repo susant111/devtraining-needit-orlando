@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="pa_indicators">
+    <pa_indicators action="DELETE">
+        <aggregate>1</aggregate>
+        <allow_multi_element_aggregation>false</allow_multi_element_aggregation>
+        <benchmarking>false</benchmarking>
+        <collect_breakdown_matrix>false</collect_breakdown_matrix>
+        <collect_records>true</collect_records>
+        <conditions table="x_58872_needit_needit">u_when_needed&lt;^EQ<item endquery="false" field="u_when_needed" goto="false" newquery="false" operator="&lt;" or="false" value=""/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </conditions>
+        <contributor/>
+        <cube display_value="NeedIt.ActiveWeekly">7a142715072020105734f6fd7c1ed004</cube>
+        <data_source/>
+        <default_aggregate/>
+        <default_chart_type>line</default_chart_type>
+        <description>NeedIt: NeedIt requests due weekly measured as a count (#). It is the sum of the indicator source: NeedIt.ActiveWeekly.</description>
+        <direction>1</direction>
+        <display>true</display>
+        <excluded_statistics/>
+        <field>complete</field>
+        <forecast_base_periods>2</forecast_base_periods>
+        <forecast_base_start>00000000</forecast_base_start>
+        <forecast_base_type>1</forecast_base_type>
+        <forecast_lower_limit/>
+        <forecast_method>1</forecast_method>
+        <forecast_periods>2</forecast_periods>
+        <forecast_upper_limit/>
+        <formula/>
+        <formula_aggregate_whole>false</formula_aggregate_whole>
+        <formula_allow_null>false</formula_allow_null>
+        <frequency>20</frequency>
+        <groups/>
+        <has_managed_indicators>false</has_managed_indicators>
+        <id>120</id>
+        <key>false</key>
+        <label/>
+        <linked_indicator/>
+        <live_group_profile/>
+        <managed_breakdown/>
+        <managed_element/>
+        <managing_indicator/>
+        <name>NeedIt: Active Weekly</name>
+        <order/>
+        <override_periods>false</override_periods>
+        <precision>0</precision>
+        <related_breakdowns>3</related_breakdowns>
+        <related_jobs>5</related_jobs>
+        <render_continuous_lines>false</render_continuous_lines>
+        <role_override>true</role_override>
+        <roles/>
+        <score_periods>-1</score_periods>
+        <scores_modified_at>2020-11-17 15:31:56</scores_modified_at>
+        <script/>
+        <scripted>false</scripted>
+        <show_delta>true</show_delta>
+        <show_realtime_score>false</show_realtime_score>
+        <snapshot_periods>-1</snapshot_periods>
+        <sql_statement/>
+        <sys_class_name>pa_indicators</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-17 13:45:25</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>85c46b15072020105734f6fd7c1ed09e</sys_id>
+        <sys_mod_count>11</sys_mod_count>
+        <sys_name>NeedIt: Active Weekly</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>pa_indicators_85c46b15072020105734f6fd7c1ed09e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-17 15:34:01</sys_updated_on>
+        <type>1</type>
+        <unit display_value="#">17b365e2d7320100ba986f14ce6103ad</unit>
+        <users/>
+        <value_when_nil>0</value_when_nil>
+        <visible_to>2</visible_to>
+    </pa_indicators>
+    <sys_translated_text action="DELETE" query="documentkey=85c46b15072020105734f6fd7c1ed09e"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</application>
+        <file_path/>
+        <instance_id>a08d4987db063bc891232f17d496190f</instance_id>
+        <instance_name>dev88125</instance_name>
+        <name>pa_indicators_85c46b15072020105734f6fd7c1ed09e</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="pa_indicators"><pa_indicators action="INSERT_OR_UPDATE"><aggregate>1</aggregate><allow_multi_element_aggregation>false</allow_multi_element_aggregation><benchmarking>false</benchmarking><collect_breakdown_matrix>false</collect_breakdown_matrix><collect_records>true</collect_records><conditions table="x_58872_needit_needit">u_when_needed&lt;^EQ<item endquery="false" field="u_when_needed" goto="false" newquery="false" operator="&lt;" or="false" value=""/><item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/></conditions><contributor/><cube display_value="NeedIt.ActiveWeekly">7a142715072020105734f6fd7c1ed004</cube><data_source/><default_aggregate/><default_chart_type>line</default_chart_type><description>NeedIt: NeedIt requests due weekly measured as a count (#). It is the sum of the indicator source: NeedIt.ActiveWeekly.</description><direction>1</direction><display>true</display><excluded_statistics/><field>complete</field><forecast_base_periods>2</forecast_base_periods><forecast_base_start>00000000</forecast_base_start><forecast_base_type>1</forecast_base_type><forecast_lower_limit/><forecast_method>1</forecast_method><forecast_periods>2</forecast_periods><forecast_upper_limit/><formula/><formula_aggregate_whole>false</formula_aggregate_whole><formula_allow_null>false</formula_allow_null><frequency>20</frequency><groups/><has_managed_indicators>false</has_managed_indicators><id>120</id><key>false</key><label/><linked_indicator/><live_group_profile/><managed_breakdown/><managed_element/><managing_indicator/><name>NeedIt: Active Weekly</name><order/><override_periods>false</override_periods><precision>0</precision><related_breakdowns>3</related_breakdowns><related_jobs>5</related_jobs><render_continuous_lines>false</render_continuous_lines><role_override>true</role_override><roles/><score_periods>-1</score_periods><scores_modified_at>2020-11-17 15:31:56</scores_modified_at><script/><scripted>false</scripted><show_delta>true</show_delta><show_realtime_score>false</show_realtime_score><snapshot_periods>-1</snapshot_periods><sql_statement/><sys_class_name>pa_indicators</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-11-17 13:45:25</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>85c46b15072020105734f6fd7c1ed09e</sys_id><sys_mod_count>11</sys_mod_count><sys_name>NeedIt: Active Weekly</sys_name><sys_overrides/><sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package><sys_policy/><sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope><sys_update_name>pa_indicators_85c46b15072020105734f6fd7c1ed09e</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-11-17 15:34:01</sys_updated_on><type>1</type><unit display_value="#">17b365e2d7320100ba986f14ce6103ad</unit><users/><value_when_nil>0</value_when_nil><visible_to>2</visible_to></pa_indicators><sys_translated_text action="delete_multiple" query="documentkey=85c46b15072020105734f6fd7c1ed09e"/></record_update>]]></payload>
+        <payload_hash>-1389061880</payload_hash>
+        <record_name>NeedIt: Active Weekly</record_name>
+        <reverted_from/>
+        <source>a6322351072020105734f6fd7c1ed0ec</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-17 15:34:01</sys_created_on>
+        <sys_id>b7edb315076020105734f6fd7c1ed02f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>175d6d7642e0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-17 15:34:01</sys_updated_on>
+        <type>Indicator</type>
+        <update_guid>bfedb31554602010149305e64a6cda2e</update_guid>
+        <update_guid_history>bfedb31554602010149305e64a6cda2e:-1389061880,505dfbd1d96020101085a21359b723c9:1880014917,344dfbd19b602010c610a0123a8c1d07:-671804665,22e7ef95fa202010dce31e939fe1689d:-136418867,1007279574202010f2f9aa4b17387fac:-86472503,7b96e355b120201063d8dce4f76cdb06:2004393348,a7962395d42020108a3adc7cb4397c32:978759653,63f5235562202010bafef18e8ded843b:825225524,a3f56b55a520201024128aa35668bbdc:-200408171,60a5af155220201031cf746e93054137:-79106148,54a56755af202010162256f2ffe9c5e0:-1104739843,f815ab15572020101ed0826bd4c9f220:2018804009</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="NeedIt: Active Weekly">19af0cad076020105734f6fd7c1ed0cb</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-17 16:51:25</sys_created_on>
+        <sys_db_object display_value="" name="pa_indicators">pa_indicators</sys_db_object>
+        <sys_id>ab4d37582e644374815ae157916cf690</sys_id>
+        <sys_metadata>85c46b15072020105734f6fd7c1ed09e</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>NeedIt: Active Weekly</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_scope_delete display_value="">94872a8897db403e8ee69a431de2fca4</sys_scope_delete>
+        <sys_update_name>pa_indicators_85c46b15072020105734f6fd7c1ed09e</sys_update_name>
+        <sys_update_version display_value="pa_indicators_85c46b15072020105734f6fd7c1ed09e">b7edb315076020105734f6fd7c1ed02f</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-17 16:51:25</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

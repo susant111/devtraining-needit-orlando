@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="pa_job_indicator_breakdown_ex">
+    <pa_job_indicator_breakdown_ex action="DELETE">
+        <breakdown display_value="NeedIt Requested for">57f5ef15072020105734f6fd7c1ed016</breakdown>
+        <job_indicator display_value="temporary job for collecting Priority - NeedIt: Active Weekly">b796e355072020105734f6fd7c1ed003</job_indicator>
+        <sys_class_name>pa_job_indicator_breakdown_ex</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-17 13:52:10</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>73962395072020105734f6fd7c1ed040</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>NeedIt Requested for.temporary job for collecting Priority - NeedIt: Active Weekly</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>pa_job_indicator_breakdown_ex_73962395072020105734f6fd7c1ed040</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-17 13:52:10</sys_updated_on>
+    </pa_job_indicator_breakdown_ex>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</application>
+        <file_path/>
+        <instance_id>a08d4987db063bc891232f17d496190f</instance_id>
+        <instance_name>dev88125</instance_name>
+        <name>pa_job_indicator_breakdown_ex_73962395072020105734f6fd7c1ed040</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="pa_job_indicator_breakdown_ex"><pa_job_indicator_breakdown_ex action="INSERT_OR_UPDATE"><breakdown display_value="NeedIt Requested for">57f5ef15072020105734f6fd7c1ed016</breakdown><job_indicator display_value="temporary job for collecting Priority - NeedIt: Active Weekly">b796e355072020105734f6fd7c1ed003</job_indicator><sys_class_name>pa_job_indicator_breakdown_ex</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-11-17 13:52:10</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>73962395072020105734f6fd7c1ed040</sys_id><sys_mod_count>0</sys_mod_count><sys_name>NeedIt Requested for.temporary job for collecting Priority - NeedIt: Active Weekly</sys_name><sys_overrides/><sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package><sys_policy/><sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope><sys_update_name>pa_job_indicator_breakdown_ex_73962395072020105734f6fd7c1ed040</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-11-17 13:52:10</sys_updated_on></pa_job_indicator_breakdown_ex></record_update>]]></payload>
+        <payload_hash>445615959</payload_hash>
+        <record_name>b796e355072020105734f6fd7c1ed003</record_name>
+        <reverted_from/>
+        <source>a6322351072020105734f6fd7c1ed0ec</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-17 13:52:10</sys_created_on>
+        <sys_id>bb962395072020105734f6fd7c1ed041</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>175d67a24250000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-17 13:52:10</sys_updated_on>
+        <type>Job Indicator Breakdown exclusions</type>
+        <update_guid>f3962395bc202010a23c2650ea2c5841</update_guid>
+        <update_guid_history>f3962395bc202010a23c2650ea2c5841:445615959</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">95af0cad076020105734f6fd7c1ed0af</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-17 16:51:24</sys_created_on>
+        <sys_db_object display_value="" name="pa_job_indicator_breakdown_ex">pa_job_indicator_breakdown_ex</sys_db_object>
+        <sys_id>1ba428aec7c04d03ae1849e6a76c1471</sys_id>
+        <sys_metadata>73962395072020105734f6fd7c1ed040</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>NeedIt Requested for.temporary job for collecting Priority - NeedIt: Active Weekly</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_scope_delete display_value="">94872a8897db403e8ee69a431de2fca4</sys_scope_delete>
+        <sys_update_name>pa_job_indicator_breakdown_ex_73962395072020105734f6fd7c1ed040</sys_update_name>
+        <sys_update_version display_value="pa_job_indicator_breakdown_ex_73962395072020105734f6fd7c1ed040">bb962395072020105734f6fd7c1ed041</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-17 16:51:24</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
